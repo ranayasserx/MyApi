@@ -1,0 +1,5 @@
+[build]
+dockerfilePath = "MyApi/Dockerfile"
+
+[deploy]
+startCommand = "dotnet MyApi.dll"
